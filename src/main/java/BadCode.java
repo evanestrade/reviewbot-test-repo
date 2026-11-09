@@ -1,7 +1,14 @@
-package fr.uge.test;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class BadCode {
-    public void test() {
-        int unusedVariable = 42;
-    }
+class BadCodeTest {
+  @Test
+  void ceTestPasse() {
+    assertEquals(2, 1 + 1);
+  }
+
+  @Test
+  void ceTestEchoue() {
+    assertEquals(3, 1 + 1);
+  }
 }
