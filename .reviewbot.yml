@@ -2,3 +2,7 @@ enabled: true
 tools:
   - checkstyle
   - pmd
+  - spotbugs
+  - jacoco
+  - junit
+  - javadoc
