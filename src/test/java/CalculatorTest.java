@@ -7,4 +7,9 @@ class CalculatorTest {
   void addsTwoNumbers() {
     assertEquals(5, new Calculator().add(2, 3));
   }
+
+  @Test
+  void mulsTwoNumbers() {
+    assertEquals(6, new Calculator().mult(2, 3));
+  }
 }

@@ -11,4 +11,15 @@ public final class Calculator {
   public int add(int a, int b) {
     return a + b;
   }
+
+  /**
+   * Adds two integers.
+   *
+   * @param a first operand
+   * @param b second operand
+   * @return the mul of a and b
+   */
+  public int mult(int a, int b) {
+    return a * b;
+  }
 }
