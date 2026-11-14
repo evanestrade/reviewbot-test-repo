@@ -10,6 +10,6 @@ class CalculatorTest {
 
   @Test
   void mulsTwoNumbers() {
-    assertEquals(6, new Calculator().mul(2, 3));
+    assertEquals(6, new Calculator().mult(2, 3));
   }
 }
